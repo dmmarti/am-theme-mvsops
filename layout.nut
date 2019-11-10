@@ -145,10 +145,10 @@ fe.add_transition_callback("sound_transitions")
 
 // Marquee Image
 
-local mq = fe.add_image( "default.png", flx*0.1175, fly*0.02, flw*0.45, flh*0.21 );
+local mq = fe.add_image( "default.png", flx*0.105, fly*0.02, flw*0.4745, flh*0.21 );
 
 if ( my_config["mq_image"] == "game") {
- local mq = fe.add_artwork( "marquee" flx*0.1175, fly*0.02, flw*0.45, flh*0.21 );
+ local mq = fe.add_artwork( "marquee" flx*0.105, fly*0.02, flw*0.4745, flh*0.21 );
 }
 
 mq.preserve_aspect_ratio=true;
